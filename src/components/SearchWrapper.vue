@@ -32,7 +32,6 @@ const searchAPI = async () => {
   axios
     .request(options)
     .then((response) => {
-      console.log(response.data.results);
       results.value = response.data.results;
     })
     .catch((err) => {
