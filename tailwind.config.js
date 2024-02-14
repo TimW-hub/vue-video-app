@@ -1,3 +1,5 @@
+import aspectRatio from '@tailwindcss/aspect-ratio'
+
 /** @type {import('tailwindcss').Config} */
 export default {
   purge: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
@@ -19,10 +21,17 @@ export default {
       6: "6px",
       8: "8px",
     },
+    backgroundColor: theme => ({
+      ...theme('colors'),
+      'TMDB': '#032541',
+    }),
     extend: {},
   },
   variants: {
     extend: {},
   },
-  plugins: [],
+  corePlugins: {
+    aspectRatio: false,
+  },
+  plugins: [aspectRatio],
 };
