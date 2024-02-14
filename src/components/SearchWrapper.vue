@@ -66,7 +66,7 @@ const formatDate = (date) => {
 
       <!-- Search Results -->
       <div v-if="isLoading">Loading...</div>
-      <div v-else-if="results">
+      <div v-else-if="results" class="w-full">
         <ul
           class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 gap-y-16 sm:gap-y-8 gap-x-4">
           <li v-for="(result, index) in results" :key="index">

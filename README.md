@@ -1,6 +1,7 @@
 # vue-video-app
 
 This single page web app is built using create-vue: https://github.com/vuejs/create-vue
+It utilises the API from TMDB link here: https://developer.themoviedb.org/docs/getting-started
 
 ## Recommended IDE Setup
 
