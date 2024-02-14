@@ -17,7 +17,7 @@ const credits = 'Created by Tim Williams';
                 <PlatoIcon />
                 <h1 class="text-2xl font-bold py-2">{{ msg }}</h1>
             </div>
-            <h3 class="text-sm text-white text-right bg-blue-600 p-2">
+            <h3 class="text-sm text-gray-400 md:text-white text-right md:bg-blue-600 p-2">
                 {{ credits }}
             </h3>
         </div>
